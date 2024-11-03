@@ -4,6 +4,8 @@
         "jsxImportSource": "hono/jsx"
     },
     "fmt": {
+        // TODO(https://github.com/denoland/deno/issues/26333): Unexclude when YAML can be indented with 2 spaces
+        "exclude": [".github/**/*.yml"],
         "indentWidth": 4,
         "semiColons": false,
         "singleQuote": true
