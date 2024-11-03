@@ -1,4 +1,8 @@
 {
+    "compilerOptions": {
+        "jsx": "precompile",
+        "jsxImportSource": "hono/jsx"
+    },
     "fmt": {
         "indentWidth": 4,
         "semiColons": false,
@@ -9,9 +13,5 @@
     },
     "tasks": {
         "start": "deno run --allow-net main.ts"
-    },
-    "compilerOptions": {
-        "jsx": "precompile",
-        "jsxImportSource": "hono/jsx"
     }
 }
