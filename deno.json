@@ -1,19 +1,6 @@
 {
-    "compilerOptions": {
-        "jsx": "precompile",
-        "jsxImportSource": "hono/jsx"
-    },
-    "fmt": {
-        "indentWidth": 4,
-        "semiColons": false,
-        "singleQuote": true
-    },
-    "imports": {
-        "hono": "jsr:@hono/hono@^4.12.0"
-    },
+    "compilerOptions": { "jsx": "precompile", "jsxImportSource": "hono/jsx" },
+    "imports": { "hono": "jsr:@hono/hono@^4.12.0" },
     "lock": false,
-    "tasks": {
-        "check": "deno fmt --check && deno lint && deno check .",
-        "start": "deno run --allow-net main.ts"
-    }
+    "tasks": { "check": "deno lint && deno check .", "start": "deno run --allow-net main.ts" }
 }
