@@ -13,6 +13,7 @@
     },
     "lock": false,
     "tasks": {
+        "check": "deno fmt --check && deno lint && deno check .",
         "start": "deno run --allow-net main.ts"
     }
 }
